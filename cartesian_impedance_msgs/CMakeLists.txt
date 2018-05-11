@@ -24,6 +24,8 @@ add_message_files(DIRECTORY msg
   SetCartesianImpedance.msg
   SetCartesianForceCtrl.msg
   CartesianForceCtrlErrorCodes.msg
+  ControlLaw.msg
+  DirectionControlLaws.msg
   )
 
 add_service_files(DIRECTORY srv
